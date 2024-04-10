@@ -180,13 +180,13 @@ button{
 
 .aboutSection h4{
     font-size: 30px;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .aboutSection .right h2{
     font-size: 32px;
     color: rgb(29, 29, 248);
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .aboutSection p{
@@ -239,8 +239,8 @@ button{
         padding-right: 0;
     }
 
-    .aboutSection .text{
-        padding: 45px;
+    .aboutSection .text, .aboutSection h4, .aboutSection h2{
+        padding: 16px;
     }
 
     .footer{
