@@ -236,6 +236,7 @@ button{
 
     .aboutSection .right{
         align-items: center;
+        padding-right: 0;
     }
 
     .aboutSection .text{
