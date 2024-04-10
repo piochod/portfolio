@@ -248,4 +248,7 @@ button{
     .footerSocials{
         margin-top: 0;
     }
+    .container{
+        width: auto;
+    }
 }
