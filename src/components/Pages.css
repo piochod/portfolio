@@ -105,12 +105,13 @@ h1{
 
 input, textarea{
     width: 100%;
-    
+    margin-bottom: 8px;
     padding: 6px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-sizing: border-box;
     display: block;
+    font-size: 16px;
 
 }
 
@@ -133,7 +134,7 @@ button{
 
 .left{
     padding: 16px;
-    flex: 30%;
+    flex: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -156,11 +157,11 @@ button{
 
 .right{
     padding: 16px;
-    flex: 70%;
+    flex: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;
+    align-items: left;
     text-align: left;
 }
 
@@ -197,7 +198,7 @@ button{
 
 
 
-.homeSection img{
+.homeSection .left img{
     width: 250px;
     border-radius: 50%;
     padding: 10px;
@@ -209,11 +210,6 @@ button{
 
 .homeSection p{
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
 }
 
 

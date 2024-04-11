@@ -19,12 +19,15 @@ const Home = () => {
           backDelay={2000}
           backSpeed={150}
           loop /></h1>
-          <p>Hi I'm Piotr Chodkowski. A passionate Front-end React Developer based in Warsaw, Poland 📍
-          <div className='socials'>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/piochod"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github"/></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/piotr-chodkowski-2a1271213/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png" alt="linkedin"/></a>
-          </div>
+
+          <p>Hi I'm Piotr Chodkowski. A passionate Web Developer based in Warsaw, Poland 📍
           </p>
+          <div className='socials'>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/piochod"><img src={require("./img/github-mark.png")} alt="github"/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/piotr-chodkowski-2a1271213/"><img src={require("./img/linkedin.png")} alt="linkedin"/></a>
+          </div>
+          
+
           
           
       </div>
