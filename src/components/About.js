@@ -17,7 +17,7 @@ const About = () => {
           <h2>About me</h2>
           <h4>Web Developer,<br/> based in Warsaw, Poland 📍</h4>
           <div className='text'>
-            <p>As a developer I really enjoy designing and building responsive websites and web apps.<br></br> I have experience in HTML, CSS, JavaScript, React.js, Django, RESTful APIs and MySQL. <br/>I always aspire to write clean and optimized code.</p>
+            <p>As a developer I really enjoy designing and building responsive websites and web apps. I have experience in HTML, CSS, JavaScript, React.js, Django, RESTful APIs and MySQL. I always aspire to write clean and optimized code.</p>
           </div>
         </div>
     </div>

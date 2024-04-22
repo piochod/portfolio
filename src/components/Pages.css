@@ -94,7 +94,7 @@ label{
 }
 
 .formSec{
-    padding: 16px;
+    padding: 32px;
     
     max-width: 400px;
     margin: 0 auto;
@@ -158,8 +158,10 @@ button{
     align-items: end;
 }
 
+
+
 .right{
-    padding: 16px;
+    padding: 32px;
     flex: 60%;
     display: flex;
     flex-direction: column;
@@ -170,8 +172,8 @@ button{
 
 .aboutSection .right{
     align-items:baseline;
-    padding-right: 50px;
     flex: 50%;
+    padding-right: 50px;
 }
 .aboutSection .left{
     flex: 50%;
@@ -219,13 +221,16 @@ button{
 @media(max-width:650px){
     .homeSection{
         flex-direction: column;
+        
     }
     .homeSection .left{
         align-items: center;
-        
     }
     .homeSection .right{
         justify-content: start;
+        align-items: center;
+        padding: 32px;
+        text-align: center;
     }
 
     .aboutSection{
@@ -235,11 +240,13 @@ button{
 
     .aboutSection .right{
         align-items: center;
-        padding-right: 0;
+        text-align: center;
+        padding: 32px;
     }
 
     .aboutSection .text, .aboutSection h4, .aboutSection h2{
         padding: 16px;
+        margin: 0px;
     }
 
     .footer{
