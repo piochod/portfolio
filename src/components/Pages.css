@@ -265,4 +265,9 @@ button{
     .container{
         width: auto;
     }
+
+    .homeSection .socials img{
+        padding: 10px;
+    
+    }
 }
