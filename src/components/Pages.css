@@ -248,9 +248,11 @@ button{
 
     .aboutSection .left{
         padding: 32px;
+        padding-top: 40px;
     }
 
     .aboutSection .text, .aboutSection h4, .aboutSection h2{
+        padding: 8px;
         margin: 0px;
     }
 
