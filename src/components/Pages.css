@@ -221,6 +221,7 @@ button{
 @media(max-width:650px){
     .homeSection{
         flex-direction: column;
+        margin-top: 76px;
         
     }
     .homeSection .left{
@@ -234,6 +235,7 @@ button{
     }
 
     .aboutSection{
+        
         flex-direction: column;
         overflow-x: hidden;
     }
@@ -244,8 +246,11 @@ button{
         padding: 32px;
     }
 
+    .aboutSection .left{
+        padding: 32px;
+    }
+
     .aboutSection .text, .aboutSection h4, .aboutSection h2{
-        padding: 16px;
         margin: 0px;
     }
 
