@@ -17,7 +17,7 @@ const About = () => {
           <h2>About me</h2>
           <h4>Software Engineer,<br/> based in Warsaw, Poland 📍</h4>
           <div className='text'>
-            <p>During my engineering career I worked on big worldwide products in agile environments. I have experience in test automation and developing CI/CD tools. I cherish problem solving and I aspire to always write the best code possible.</p>
+            <p>During my engineering career, I have worked on large-scale global projects in agile environments. I have experience in test automation and developing CI/CD tools. I am passionate about problem-solving and strive to write high-quality code.</p>
           </div>
         </div>
     </div>
