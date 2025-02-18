@@ -1,8 +1,12 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
 import './Pages.css'
+import { useTranslation } from 'react-i18next'
 
 const Home = () => {
+
+  const {t} = useTranslation();
+
   return (
     <div className="homeSection" id='home'>
       <div className='left'>
@@ -20,7 +24,7 @@ const Home = () => {
           backSpeed={150}
           loop /></h1>
 
-          <p>Hi I'm Piotr Chodkowski. A passionate Web Developer based in Warsaw, Poland 📍
+          <p>Hi I'm Piotr Chodkowski. A passionate Software Engineer based in Warsaw, Poland 📍
           </p>
           <div className='socials'>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/piochod"><img src={require("./img/github-mark.png")} alt="github"/></a>
