@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="homeSection" id='home'>
       <div className='left'>
-          <img src="https://raw.githubusercontent.com/piochod/portfolioTemplate/7f1d9f9e888a1c2efb9eb6cc366577356ed23d9d/src/icons/avatar.svg" />
+          <img src={require("./img/foto.jpg")} alt="Piotr Chodkowski" />
       </div>
 
       <div className='right'>
