@@ -8,7 +8,7 @@ const About = () => {
           <div className='images'>
             <img src={require("./img/html-5.png")} alt="python"/>
             <img src={require("./img/logo192.png")} alt="react" />
-            <img style={{height: 60 +'px', width: 170+'px'}}src={require("./img/jenkins.png")} alt="jenkins"/>
+            <img style={{height: 60 +'px', width: 190+'px'}}src={require("./img/jenkins.png")} alt="jenkins"/>
             <img src={require("./img/MySQL.png")} alt="postgresql"/>
             <img src={require("./img/css-3.png")} alt="typescript"/>
           </div>
